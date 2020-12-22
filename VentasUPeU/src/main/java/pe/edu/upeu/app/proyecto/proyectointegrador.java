@@ -38,12 +38,12 @@ public class proyectointegrador {
             if (total==0){
                 total=categoria1+categoria2+categoria3;
             }
-        System.out.println(
+         System.out.println(
                 "----------------Boleta de venta-------------");
-            String nom= null;
-            Scanner nombre=new Scanner(System.in);
-            System.out.println("Apellidos y nombres");
-            nom=nombre.nextLine();
+        String nom= null;
+        Scanner nombre=new Scanner(System.in);
+        System.out.println("Apellidos y nombres");
+        nom=nombre.nextLine();
 
         }
               
@@ -51,6 +51,6 @@ public class proyectointegrador {
         System.out.println("pollo a la brasa : " + categoria1);
         System.out.println("pollo al horno : " + categoria2);
         System.out.println("pollo mixto : " + categoria3);
-        System.out.println("total a pagr es : " + total);
+       
     }
 }
