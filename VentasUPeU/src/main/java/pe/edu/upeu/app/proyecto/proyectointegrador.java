@@ -12,7 +12,7 @@ public class proyectointegrador {
         int CantAutomoviles, costo = 0, categoria, categoria1 = 0, categoria2 = 0, categoria3 = 0,total=0;
         double impuesto = 0, impuestoAPagar = 0;
        System.out.println(
-                "Menu :\n[1]pollo a la brasa: 20 s/.\n[2]pollo al horno\n20 s/.[3]Mixto de pollo 30 s/.");
+                "Menu :\n[1]pollo a la brasa: 20 s/.\n[2]pollo al horno: 20 s/.\n[3]Mixto de pollo: 30 s/.");
   
         System.out.println("cunatos fue su eleccion: ");
         CantAutomoviles = teclado.lector(0);
@@ -38,7 +38,7 @@ public class proyectointegrador {
             if (total==0){
                 total=categoria1+categoria2+categoria3;
             }
-                 System.out.println(
+        System.out.println(
                 "----------------Boleta de venta-------------");
             String nom= null;
             Scanner nombre=new Scanner(System.in);
